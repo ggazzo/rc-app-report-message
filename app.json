@@ -1,0 +1,23 @@
+{
+    "id": "6a7a4100-f41d-49e0-b45e-5bd3e25adcf3",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.29.0-alpha.0.5711",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Guilherme Gazzo",
+        "homepage": "github.com/ggazzo",
+        "support": "github.com/ggazzo"
+    },
+    "name": "rc-app-report-message",
+    "nameSlug": "rc-app-report-message",
+    "classFile": "RcAppReportMessageApp.ts",
+    "description": "Report message",
+    "implements": [
+        "IUIKitInteractionHandler"
+    ],
+    "permissions": [
+        {
+            "name": "ui.registerButtons"
+        }
+    ]
+}
